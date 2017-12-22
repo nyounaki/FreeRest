@@ -4,6 +4,7 @@ import { AlertModule } from 'ngx-bootstrap';
 
 
 import { AppComponent } from './app.component';
+import { SvcFreeRestService } from './svc-free-rest.service';
 
 
 @NgModule({
@@ -13,7 +14,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,AlertModule.forRoot()
   ],
-  providers: [],
+  providers: [SvcFreeRestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
