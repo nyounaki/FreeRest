@@ -5,11 +5,13 @@ import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component';
 import { SvcFreeRestService } from './svc-free-rest.service';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RestaurantsComponent
   ],
   imports: [
     BrowserModule,AlertModule.forRoot()
